@@ -9,7 +9,7 @@
     .header{background:var(--navy);color:var(--white);display:flex;align-items:center;padding:.5rem 1rem;gap:1rem;}
     .header img{width:36px;height:auto;cursor:pointer;}
     .header h1{margin:0;font-size:1.4rem;font-weight:600;}
-    .sidebar{width:60px;background:var(--navy);position:fixed;top:0;bottom:0;padding-top:4rem;display:flex;flex-direction:column;align-items:center;gap:1rem;}
+    .sidebar{width:60px;background:var(--navy);position:fixed;top:0;bottom:0;padding-top:4rem;display:flex;flex-direction:column;align-items:flex-start;gap:1rem;}
     .icon-link{color:var(--white);font-size:1.2rem;text-decoration:none;width:100%;text-align:center;}
     .icon-link:hover{background:rgba(255,255,255,.12);}    
     .main{margin-left:60px;padding:2rem;}
@@ -27,30 +27,26 @@
   <aside class="sidebar">
     <a class="icon-link" title="Home" href="index.html">🏠</a>
     <a class="icon-link" title="Dashboards" href="dashboards.html">📊</a>
-    <a class="icon-link" title="Vetting" href="vetting.html">🛂</a>
     <a class="icon-link" title="Trackers" href="tracker.html">📑</a>
     <a class="icon-link" title="Guidelines" href="guidelines.html">📋</a>
-    <a class="icon-link" title="Alerts" href="comm alerts & notifications.html">🚨</a>
+    <a class="icon-link" title="Alerts" href="fleet alerts.html">🚨</a>
     <a class="icon-link" title="Contracts" href="contracts.html">📄</a>
     <a class="icon-link" title="Emails" href="email templates.html">✉️</a>
-    <a class="icon-link" title="Forms" href="forms & checklists.html">📝</a>
-    <a class="icon-link" title="Critical Ops" href="critical operation.html">⚙️</a>
-    <a class="icon-link" title="Misc" href="miscellaneous.html">📚</a>
+    <a class="icon-link" title="Critical Ops" href="critical operation.html">⚙️</a> 
+    <a class="icon-link" title="Security" href="security.html">🛡️</a>
+    <a class="icon-link" title="Misc" href="information center.html">📚</a>
     <a class="icon-link" title="Recycle Bin" href="recycle-bin.html">🗑️</a>
   </aside>
+
 
   <main class="main">
     <div class="tiles">
       <a class="tile" href="#">Operations Dashboard</a>
-      <a class="tile" href="#">Co2 Emmissions Dashboard</a>
-      <a class="tile" href="#">KPI Bunker</a>
-      <a class="tile" href="#">KPI Invoice</a>
-      <a class="tile" href="#">Port Days & Laytime</a>
+      <a class="tile" href="#">Vetting</a>
       <a class="tile" href="#">Tanker Issues</a>
-      <a class="tile" href="#">Speed Dashboard</a>
-      <a class="tile" href="#">Variance Dashboard</a>
+      <a class="tile" href="#">Exceptions</a>
       <a class="tile" href="#">Claims</a>
-      <a class="tile" href="#">Miscellaneous</a>
+      <a class="tile" href="#">Provisions</a>
     </div>
   </main>
 </body>
